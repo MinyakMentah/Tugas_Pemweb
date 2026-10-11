@@ -1,0 +1,21 @@
+=== TUGAS QUERY CRUD ===
+
+1. CREATE (Menambah Data)
+Query yang digunakan adalah INSERT.
+Contoh:
+INSERT INTO siswa (id, nama, kelas) VALUES (1, 'Budi', '4-A');
+
+2. READ (Melihat Data)
+Query yang digunakan adalah SELECT.
+Contoh:
+SELECT * FROM siswa;
+
+3. UPDATE (Mengubah Data)
+Query yang digunakan adalah UPDATE.
+Contoh:
+UPDATE siswa SET kelas = '4-B' WHERE nama = 'Budi';
+
+4. DELETE (Menghapus Data)
+Query yang digunakan adalah DELETE.
+Contoh:
+DELETE FROM siswa WHERE nama = 'Budi';
